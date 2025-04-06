@@ -137,7 +137,7 @@ public class GameBehavior extends JPanel {
         else if (piece instanceof Rook) symbol = 'r';
         else if (piece instanceof Bishop) symbol = 'b';
         else if (piece instanceof Knight) symbol = 'n';
-        else symbol = 'p'; // Pawn
+        else symbol = 'p'; 
 
         return piece.getColor().equals("WHITE") ? Character.toUpperCase(symbol) : symbol;
     }
